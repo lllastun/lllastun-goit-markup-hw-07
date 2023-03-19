@@ -1,0 +1,39 @@
+@media screen and (min-width: 1200px) {
+    .container {
+        width: 1440px;
+    }
+
+    /*                   hero               */
+
+    .hero {
+        max-width: 1440px;
+        padding-top: 188px;
+        padding-bottom: 188px;
+        /* background-image: linear-gradient(
+                0deg,
+                rgba(46, 47, 66, 0.7),
+                rgba(46, 47, 66, 0.7)
+            ),
+            url(../images/people-office.jpg); */
+    }
+
+    .order-button {
+        margin-top: 36px;
+    }
+
+    /*                 advantages                 */
+
+    .advantages-block {
+        padding-top: 120px;
+        padding-bottom: 120px;
+    }
+
+    .advantages-icon-box {
+        display: flex;
+        height: 112px;
+        border-radius: 4px;
+        background-color: var(--light-gray-color);
+        align-items: center;
+        justify-content: center;
+    }
+}
