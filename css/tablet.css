@@ -3,125 +3,170 @@
         width: 768px;
     }
 
-    /*                   hero               */
+    /*  <header> <header> <header> */
 
-    .hero {
-        max-width: 768px;
-        /* background-image: linear-gradient(
+    .site-nav,
+    .contacts-list {
+        display: flex;
+
+    }
+    
+    .contacts-list {
+        flex-direction: column;
+  align-items: flex-end;
+  gap: 12px;
+  
+    }
+
+    .nav {
+        font-weight: 500;
+        line-height: 1.5;
+        color: var(--second-color);
+        padding: 24px 0;
+        transition: color var(--timing) var(--func-timing);
+    }
+
+    .nav-block {
+        display: flex;
+        align-items: center;
+        padding-top: 0;
+    }
+
+      .contacts-item {
+        font-size: 12px;
+       }  
+
+       .accept-wrap {
+        display: block;
+       }
+      
+
+     .address-wrap {
+        margin-left: auto;
+    } 
+    .header-wrap {
+        align-items: center;
+    }
+
+        /*                   hero               */
+
+        .hero {
+            max-width: 100%;
+            /* background-image: linear-gradient(
                 0deg,
                 rgba(46, 47, 66, 0.7),
                 rgba(46, 47, 66, 0.7)
             ),
             url(../images/people-office.jpg); */
-        background-size: auto;
-    }
+            background-size: auto;
+        }
 
-    .hero-slogan {
-        font-size: 56px;
-        line-height: 1.07;
-        width: 496px;
-    }
-    .order-button {
-        margin-top: 48px;
-    }
+        .hero-slogan {
+            font-size: 56px;
+            line-height: 1.07;
+            width: 496px;
+        }
+        .order-button {
+            margin-top: 48px;
+        }
 
-    /*                 advantages                 */
+        /*                 advantages                 */
 
-    .advantages-list {
-        display: flex;
-        flex-wrap: wrap;
-        gap: 72px 24px;
-    }
+        .advantages-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 72px 24px;
+        }
 
-    .advantages-list > .advantages-item {
-        width: calc((100%-32px-24px) / 2);
-        max-width: 356px;
-        padding-top: 0;
-    }
+        .advantages-list > .advantages-item {
+            width: calc((100%-32px-24px) / 2);
+            max-width: 356px;
+            padding-top: 0;
+        }
 
-    .text {
-        font-weight: 500;
-    }
+        .text {
+            font-weight: 500;
+        }
 
-    /* What Are We Doing   */
-    /*          Our Team      */
+        /* What Are We Doing   */
+        /*          Our Team      */
 
-    .team-list {
-        gap:  64px 24px;
-        flex-direction: row;
-        justify-content: center;
-    }
+        .team-list {
+            gap: 64px 24px;
+            flex-direction: row;
+            justify-content: center;
+        }
 
-    .icon-ellipse:hover,
-    .icon-ellipse:focus {
-        background-color: var(--second-accent-color);
-    }
+        .icon-ellipse:hover,
+        .icon-ellipse:focus {
+            background-color: var(--second-accent-color);
+        }
 
-    /*          customers-block          */
+        /*          customers-block          */
 
-    .customers-block {
-        max-width: 768px;
-    }
+        .customers-block {
+            max-width: 768px;
+        }
 
-    .rectangle {
-        display: flex;
-        width: 168px;
-        height: 88px;
-        border: 1px solid var(--inactive-icon);
-        border-radius: 4px;
-        justify-content: center;
-        align-items: center;
-        transition: border var(--timing) var(--func-timing);
-    }
+        .rectangle {
+            display: flex;
+            width: 168px;
+            height: 88px;
+            border: 1px solid var(--inactive-icon);
+            border-radius: 4px;
+            justify-content: center;
+            align-items: center;
+            transition: border var(--timing) var(--func-timing);
+        }
 
-    .customers-list {
-        margin-left: 40px;
-        margin-right: 40px;
-    }
+        .customers-list {
+            margin-left: 40px;
+            margin-right: 40px;
+        }
 
-    /*                 footer                  */
+        /*                 footer                  */
 
-    .footer {
-        width: 100%;
-        /* padding-left: 108px;
+        .footer {
+            width: 100%;
+            /* padding-left: 108px;
         padding-right: 172px; */
-    }
+        }
 
-    .motto {
-        width: 264px;
-    }
+        .motto {
+            width: 264px;
+        }
 
-    .footer-list {
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        flex-wrap: wrap;
-        max-width: 768px;
-        gap: 72px 24px;
-    }
+        .footer-list {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            flex-wrap: wrap;
+            max-width: 768px;
+            gap: 72px 24px;
+        }
 
-    .subsribe-wrap {
-        margin-left: 120px;
-    }
+        .subsribe-wrap {
+            margin-left: 120px;
+        }
 
-    .subscribe-input {
-    }
+        .subscribe-input {
+        }
 
-    .subscribe-form {
-        flex-direction: row;
-        justify-content: flex-start;
-    }
+        .subscribe-form {
+            flex-direction: row;
+            justify-content: flex-start;
+        }
 
-    .footer-lable {
-        max-width: 264px;
-        width: 100%;
-    }
+        .footer-lable {
+            max-width: 264px;
+            width: 100%;
+        }
 
-    .subscribe-title {
-        text-align: left;
+        .subscribe-title {
+            text-align: left;
+        }
+        .social-media {
+            text-align: left;
+        }
     }
-     .social-media {
-        text-align: left;
-    }
-}
 }

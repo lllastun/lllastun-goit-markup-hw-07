@@ -3,6 +3,28 @@
         width: 1200px;
     }
 
+    /*  <header> <header> <header> */
+
+    .header-wrap {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    address {
+        margin-left: auto;
+    }
+
+    .contacts-item + .contacts-item {
+        margin-left: 40px;
+    }
+    .contacts-item {
+        font-size: 16px;
+    }
+
+    .contacts-list {
+        flex-direction: row;
+    }
     /*                   hero               */
 
     .hero {
@@ -110,16 +132,6 @@
 
     .social-media-wrap {
         margin-left: 120px;
-    }
-
-    /* .subsribe-wrap {
-        display: flex;
-        flex-direction: column;
-        gap: 10px;
-        align-items: center;
-    } */
-
-    .subscribe-form {
     }
 
     .subsribe-wrap {
