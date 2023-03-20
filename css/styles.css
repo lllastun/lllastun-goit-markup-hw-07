@@ -237,16 +237,6 @@ address {
 /*                                   footer                                   */
 /* -------------------------------------------------------------------------- */
 
-.footer .logo {
-    color: var(--light-gray-color);
-}
-
-.motto {
-    color: var(--light-gray-color);
-    margin-top: 16px;
-    width: 264px;
-}
-
 .footer-icon-ellipse {
     display: flex;
     height: 40px;
@@ -274,49 +264,9 @@ address {
     fill: var(--light-gray-color);
 }
 
-.social-media-wrap {
-    margin-left: 120px;
-}
-
 .social-media,
 .subscribe-title {
     font-weight: 500;
-    color: var(--background-color);
-}
-
-.footer-list {
-    display: flex;
-    align-items: baseline;
-}
-
-.footer-list {
-    display: flex;
-}
-
-.footer-logo-item {
-    max-width: 264px;
-}
-
-.subsribe-wrap {
-    margin-left: 80px;
-}
-
-.subscribe-form {
-    display: flex;
-    margin-top: 16px;
-    gap: 24px;
-}
-
-.subscribe-input {
-    width: 264px;
-    height: 40px;
-    background-color: var(--second-color);
-    padding: 8px 16px;
-
-    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
-    border: 1px solid var(--background-color);
-    border-radius: 4px;
-    font-size: 12px;
     color: var(--background-color);
 }
 

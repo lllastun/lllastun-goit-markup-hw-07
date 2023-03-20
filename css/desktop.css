@@ -99,4 +99,13 @@
     .footer {
         max-width: 1440px;
     }
+
+    .footer-list {
+        flex-wrap: nowrap;
+        align-items: baseline;
+    }
+
+    .social-media-wrap {
+        margin-left: 120px;
+    }
 }
