@@ -34,12 +34,6 @@ img {
     width: 100%;
 }
 
-/* .container {
-    width: 1158px;
-    padding: 0 15px;
-    margin: 0 auto;
-} */
-
 body {
     background-color: var(--background-color);
     color: var(--main-color);
@@ -226,165 +220,22 @@ address {
 /* -------------------------------------------------------------------------- */
 /*                                 advantages                                 */
 /* -------------------------------------------------------------------------- */
-.advantages-icon-box {
-    display: flex;
-    height: 112px;
-    border-radius: 4px;
-    background-color: var(--light-gray-color);
-    align-items: center;
-    justify-content: center;
-}
-
-.advantages-icon {
-    width: 64px;
-    height: 64px;
-}
-
-.advantages-list {
-    margin-top: 8px;
-}
-
-.advantages-list {
-    display: flex;
-}
-.advantages-block {
-    padding-top: 120px;
-    padding-bottom: 120px;
-}
-.advantages-item {
-    width: 264px;
-}
-
-.advantages-item:not(:last-child) {
-    margin-right: 24px;
-}
 
 /* -------------------------------------------------------------------------- */
 /*                              What Are We Doing                             */
 /* -------------------------------------------------------------------------- */
-.works-block {
-    padding-bottom: 120px;
-}
-.works-item .text {
-    line-height: 1.5;
-    color: var(--main-color);
-}
-
-.works-list {
-    display: flex;
-}
-
-.works-card:not(:last-child) {
-    margin-right: 24px;
-}
 
 /* -------------------------------------------------------------------------- */
 /*                                  Our Team                                  */
 /* -------------------------------------------------------------------------- */
-.team-block {
-    background-color: var(--light-gray-color);
-    padding-top: 120px;
-    padding-bottom: 120px;
-}
-
-.team-list {
-    display: flex;
-}
-
-.team-card:not(:last-child) {
-    margin-right: 24px;
-}
-
-.team-card {
-    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
-        0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
-    border-radius: 0px 0px 4px 4px;
-    background-color: var(--background-color);
-}
-
-.team-container {
-    padding: 32px 16px;
-    text-align: center;
-}
-
-.icon-ellipse {
-    display: flex;
-    height: 40px;
-    width: 40px;
-    background-color: var(--accent-color);
-    border-radius: 50%;
-    justify-content: center;
-    align-items: center;
-    transition: background-color var(--timing) var(--func-timing);
-}
-
-.icon-list svg {
-    width: 16px;
-    height: 16px;
-    fill: var(--light-gray-color);
-}
-
-.icon-ellipse:hover,
-.icon-ellipse:focus {
-    background-color: var(--second-accent-color);
-}
-
-.icon-list {
-    margin-top: 8px;
-    display: flex;
-    justify-content: space-between;
-}
 
 /* -------------------------------------------------------------------------- */
 /*                               customers-block                              */
 /* -------------------------------------------------------------------------- */
 
-.customers-block {
-    padding-top: 120px;
-    padding-bottom: 120px;
-}
-
-.rectangle {
-    display: flex;
-    height: 88px;
-    width: 168px;
-    border: 1px solid var(--inactive-icon);
-    border-radius: 4px;
-    justify-content: center;
-    align-items: center;
-    transition: border var(--timing) var(--func-timing);
-}
-
-.rectangle:hover,
-.rectangle:focus {
-    border: 1px solid var(--second-accent-color);
-}
-
-.customers-list {
-    display: flex;
-    gap: 24px;
-}
-
-.customers-icon {
-    width: 104px;
-    height: 56px;
-    fill: var(--inactive-icon);
-    transition: fill var(--timing) var(--func-timing);
-}
-
-.rectangle:hover .customers-icon,
-.rectangle:focus .customers-icon {
-    fill: var(--second-accent-color);
-}
-
 /* -------------------------------------------------------------------------- */
 /*                                   footer                                   */
 /* -------------------------------------------------------------------------- */
-.footer {
-    background-color: var(--second-color);
-    padding-top: 100px;
-    padding-bottom: 100px;
-}
 
 .footer .logo {
     color: var(--light-gray-color);
