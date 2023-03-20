@@ -47,7 +47,7 @@
     /*          Our Team      */
 
     .team-list {
-        gap: 24px 64px;
+        gap:  64px 24px;
         flex-direction: row;
         justify-content: center;
     }
@@ -75,7 +75,8 @@
     }
 
     .customers-list {
-        /* gap: 72px 24px; */
+        margin-left: 40px;
+        margin-right: 40px;
     }
 
     /*                 footer                  */
@@ -95,9 +96,8 @@
         flex-direction: row;
         justify-content: center;
         flex-wrap: wrap;
-        align-items: center;
         max-width: 768px;
-        gap: 24px;
+        gap: 72px 24px;
     }
 
     .subsribe-wrap {

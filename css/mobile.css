@@ -223,7 +223,6 @@
         flex-direction: column;
         justify-content: center;
         gap: 72px;
-        align-items: center;
         max-width: 480px;
     }
 
