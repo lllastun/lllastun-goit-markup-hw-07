@@ -97,15 +97,32 @@
     /*                 footer                  */
 
     .footer {
-        max-width: 1440px;
+        /* max-width: 1440px; */
+        width: 100%;
     }
 
     .footer-list {
         flex-wrap: nowrap;
         align-items: baseline;
+        max-width: 1200px;
+        gap: 0;
     }
 
     .social-media-wrap {
         margin-left: 120px;
+    }
+
+    /* .subsribe-wrap {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        align-items: center;
+    } */
+
+    .subscribe-form {
+    }
+
+    .subsribe-wrap {
+        margin-left: 80px;
     }
 }

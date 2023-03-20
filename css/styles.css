@@ -237,68 +237,6 @@ address {
 /*                                   footer                                   */
 /* -------------------------------------------------------------------------- */
 
-.footer-icon-ellipse {
-    display: flex;
-    height: 40px;
-    width: 40px;
-    background-color: rgba(255, 255, 255, 0.1);
-    border-radius: 50%;
-    justify-content: center;
-    align-items: center;
-    transition: background-color var(--timing) var(--func-timing);
-}
-
-.footer-icon-ellipse:focus,
-.footer-icon-ellipse:hover {
-    background-color: var(--success-color);
-}
-
-.social-media-wrap .icon-list {
-    margin-top: 16px;
-    gap: 16px;
-}
-
-.social-media-wrap svg {
-    width: 24px;
-    height: 24px;
-    fill: var(--light-gray-color);
-}
-
-.social-media,
-.subscribe-title {
-    font-weight: 500;
-    color: var(--background-color);
-}
-
-.subscribe-form ::placeholder {
-    color: var(--background-color);
-    letter-spacing: 0.04em;
-}
-
-.subscribe-btn {
-    width: 168px;
-    display: flex;
-    justify-content: space-between;
-    padding: 8px 24px;
-    font-weight: 500;
-    color: var(--background-color);
-    background-color: var(--accent-color);
-    letter-spacing: 0.04em;
-    transition: background-color var(--timing) var(--func-timing);
-    align-items: center;
-}
-
-.subscribe-btn:hover,
-.subscribe-btn:focus {
-    background-color: var(--second-accent-color);
-}
-
-.subscribe-icon {
-    width: 24px;
-    height: 24px;
-    fill: var(--background-color);
-}
-
 /* -------------------------------------------------------------------------- */
 /*                             categories-btn portfolio                       */
 /* -------------------------------------------------------------------------- */

@@ -75,16 +75,53 @@
     }
 
     .customers-list {
-        gap: 72px 24px;
+        /* gap: 72px 24px; */
     }
 
     /*                 footer                  */
 
     .footer {
-        max-width: 768px;
+        width: 100%;
+        /* padding-left: 108px;
+        padding-right: 172px; */
     }
 
     .motto {
         width: 264px;
     }
+
+    .footer-list {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
+        align-items: center;
+        max-width: 768px;
+        gap: 24px;
+    }
+
+    .subsribe-wrap {
+        margin-left: 120px;
+    }
+
+    .subscribe-input {
+    }
+
+    .subscribe-form {
+        flex-direction: row;
+        justify-content: flex-start;
+    }
+
+    .footer-lable {
+        max-width: 264px;
+        width: 100%;
+    }
+
+    .subscribe-title {
+        text-align: left;
+    }
+     .social-media {
+        text-align: left;
+    }
+}
 }
