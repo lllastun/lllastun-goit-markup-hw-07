@@ -66,6 +66,24 @@
         position: relative;
     }
 
+    /* mobile menu */ /* mobile menu */ /* mobile menu */
+
+    .menu-button .icon-close {
+        display: none;
+    }
+
+    .menu-button.is-open .icon-close {
+        display: block;
+    }
+
+    .menu-button.is-open .icon-menu {
+        display: none;
+    }
+
+    /* .menu-button .icon-close {
+        display: block;
+    } */
+
     /*                   hero               */
 
     .hero {
@@ -95,7 +113,8 @@
         margin-right: auto;
         margin-left: auto;
         text-align: center;
-        width: 100%;
+        width: calc(100%-32px);
+        max-width: 320px;
     }
 
     .order-button:hover,
@@ -228,12 +247,14 @@
         /* flex-basis: calc(
         (100% - (var(--carts) - 1) * var(--gap)) / var(--carts)
         ); */
-        flex-basis: calc((100% - (5) * 16) / var(6));
-
+        display: flex;
+        max-width: 100%;
         height: 88px;
         border: 1px solid var(--inactive-icon);
         border-radius: 4px;
         transition: border var(--timing) var(--func-timing);
+        flex-basis: calc((100% - (16px * 5)) / 2);
+        flex-shrink: 1;
     }
 
     .rectangle-link {
@@ -258,7 +279,7 @@
     }
 
     .customers-icon {
-        width: 104px;
+        width: 110px;
         height: 56px;
         fill: var(--inactive-icon);
         transition: fill var(--timing) var(--func-timing);
@@ -417,4 +438,9 @@
     .container {
         width: 428px;
     }
+
+    /* .rectangle {
+        width: calc(190 / 428 / 100) vw;
+        height: inherit;
+    } */
 }
