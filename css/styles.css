@@ -12,6 +12,11 @@
     --second-color: #2e2f42;
     --func-timing: cubic-bezier(0.4, 0, 0.2, 1);
     --timing: 250ms;
+    --bg-grad: linear-gradient(
+        0deg,
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+    );
 }
 
 /* -------------------------------------------------------------------------- */
@@ -31,7 +36,8 @@ p {
 
 img {
     display: block;
-    width: 100%;
+    max-width: 100%;
+    height: auto;
 }
 
 body {
@@ -276,10 +282,6 @@ body {
     transition: opacity var(--timing) var(--func-timing);
 }
 
-.backdrop.is-hidden {
-    opacity: 0;
-}
-
 .backdrop.is-hidden .modal {
     transform: translate(-50%, -50%) scale(0.8);
 }
@@ -425,7 +427,6 @@ body {
     letter-spacing: 0.04em;
     line-height: 1.17;
     color: var(--inactive-icon);
-    margin-left: 11px;
 }
 
 .accept-wrap:nth-child(1) {
