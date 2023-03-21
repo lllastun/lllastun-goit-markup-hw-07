@@ -80,7 +80,7 @@
       </div>
     </section>
 
-    <section class="advantages-block container">
+    <section class="advantages-block">
       <div class="container">
 
         <h2 class="visually-hidden">Our advantages</h2>
@@ -147,13 +147,19 @@
         <h2 class="title">What are we doing</h2>
         <ul class="works-list list">
           <li class="works-card">
-            <img class="works-img" src="./images/what-are-we-doing1.jpg" alt="Desktop" width="360">
+            <img class="works-img" srcset="./images/what-are-we-doing1@1x.jpg 1x,
+                                    ./images/what-are-we-doing1@2x.jpg 2x" src="./images/what-are-we-doing1@1x.jpg"
+              alt="Desktop" width="360">
           </li>
           <li class="works-card">
-            <img class="works-img" src="./images/what-are-we-doing2.jpg" alt="SmartPhone" width="360">
+            <img class="works-img" srcset="./images/what-are-we-doing2@1x.jpg 1x,
+                                    ./images/what-are-we-doing2@2x.jpg 2x" src="./images/what-are-we-doing2@1x.jpg"
+              alt="SmartPhone" width="360">
           </li>
           <li class="works-card">
-            <img class="works-img" src="./images/what-are-we-doing3.jpg" alt="Phablet" width="360">
+            <img class="works-img" srcset="./images/what-are-we-doing3@1x.jpg 1x,
+                                    ./images/what-are-we-doing3@2x.jpg 2x" src="./images/what-are-we-doing3@1x.jpg"
+              alt="Phablet" width="360">
           </li>
         </ul>
       </div>
@@ -498,7 +504,7 @@
 
   <div class="header-menu js-menu-container is-hidden" data-menu>
     <button type="button" class="menu-close btn" data-menu-close>
-      <svg width="8" height="8">
+      <svg class="menu-icon-close" width="8" height="8">
         <use href="./images/icons.svg#close"></use>
       </svg>
     </button>
@@ -507,13 +513,13 @@
 
       <ul class="mobile-list list">
         <li class="mobile-nav-item ">
-          <a class="nav link current" href="#">Studio</a>
+          <a class="nav link" href="./index.html">Studio</a>
         </li>
         <li class="mobile-nav-item ">
           <a class="nav link" href="./portfolio.html">Portfolio</a>
         </li>
         <li class="mobile-nav-item ">
-          <a class="nav link" href="#">Contacts</a>
+          <a class="nav link  current" href="#">Contacts</a>
         </li>
       </ul>
     </nav>
@@ -558,11 +564,11 @@
       </ul>
     </div>
 
+  </div>
 
 
-
-    <script src="./js/modal.js"></script>
-    <script src="./js/mobile-menu.js"></script>
+  <script src="./js/modal.js"></script>
+  <script src="./js/mobile-menu.js"></script>
 
 </body>
 

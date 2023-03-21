@@ -57,6 +57,7 @@ body {
 
 .link {
     text-decoration: none;
+    color: inherit;
 }
 .title {
     font-weight: 700;
