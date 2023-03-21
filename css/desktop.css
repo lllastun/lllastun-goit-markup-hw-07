@@ -29,11 +29,34 @@
     /*                   hero               */
 
     .hero {
-        max-width: 100%;
+        margin: 0 auto;
+        background-color: var(--second-color);
+        max-width: 1440px;
         padding-top: 188px;
         padding-bottom: 188px;
-        /* background-image: var(--bg-grad)
-               url(../images/people-office.jpg); */
+
+        background-image: var(--bg-grad),
+            url(../images/people-office@1x-desktop.jpg);
+
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+
+    @media (min-device-pixel-ratio: 2),
+        (min-resolution: 192dpi),
+        (min-resolution: 2dppx) {
+        .hero {
+            margin: 0 auto;
+            background-color: var(--second-color);
+            padding-top: 112px;
+            padding-bottom: 112px;
+            background-image: var(--bg-grad),
+                url(../images/people-office@2x-desktop.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+        }
     }
 
     .order-button {
@@ -63,19 +86,21 @@
     .advantages-subtitle {
         font-size: 20px;
         margin-top: 8px;
+        font-weight: 500;
     }
 
     /* .advantages-item:not(:last-child) {
         margin-right: 24px;
     } */
-    .advantages-list {
-        /* gap: 0px 24px; */
-        /* flex-wrap: nowrap; */
-    }
+
     .advantages-list > .advantages-item {
         width: 264px;
         margin: 0;
     }
+    .text {
+        font-weight: 400;
+    }
+
     .text {
         font-weight: 400;
     }

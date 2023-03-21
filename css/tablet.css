@@ -218,4 +218,12 @@
         height: 584px;
         width: 408px;
     }
+
+    .menu-open {
+        display: none;
+    }
+
+    .header-menu {
+        display: none;
+    }
 }
