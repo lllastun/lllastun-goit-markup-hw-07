@@ -10,9 +10,17 @@
         display: flex;
     }
 
+    .menu-button {
+        display: none;
+    }
+
+    .contacts {
+        letter-spacing: 0.04;
+    }
+
     .contacts-list {
         flex-direction: column;
-        align-items: flex-end;
+        align-items: center;
         gap: 12px;
     }
 
@@ -40,6 +48,7 @@
 
     .address-wrap {
         margin-left: auto;
+        line-height: 1.17em;
     }
     .header-wrap {
         align-items: center;
@@ -61,7 +70,7 @@
     .hero-slogan {
         font-size: 56px;
         line-height: 1.07;
-        width: 496px;
+        max-width: 496px;
     }
     .order-button {
         margin-top: 48px;
@@ -107,18 +116,22 @@
 
     .rectangle {
         display: flex;
-        width: 168px;
+        /* width: 168px; */
         height: 88px;
         border: 1px solid var(--inactive-icon);
         border-radius: 4px;
         justify-content: center;
         align-items: center;
         transition: border var(--timing) var(--func-timing);
+        flex-basis: calc((100% - 48px) / 3);
     }
 
     .customers-list {
-        margin-left: 40px;
-        margin-right: 40px;
+        gap: 24px;
+    }
+    }
+    .customers-wrap {
+        width: calc(768px - 216px);
     }
 
     /*                 footer                  */

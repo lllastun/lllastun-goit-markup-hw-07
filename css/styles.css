@@ -71,6 +71,7 @@ body {
     letter-spacing: 0.04em;
     font-size: inherit;
     font-family: inherit;
+    background-color: transparent;
 }
 
 .subtitle {

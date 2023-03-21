@@ -9,6 +9,7 @@
         display: flex;
         align-items: center;
         justify-content: space-between;
+        margin-bottom: 0;
     }
 
     address {
@@ -114,6 +115,10 @@
         padding-top: 120px;
         padding-bottom: 120px;
         max-width: 1200px;
+    }
+
+    .rectangle {
+        flex-basis: calc((100% - 120px) / 6);
     }
 
     /*                 footer                  */
