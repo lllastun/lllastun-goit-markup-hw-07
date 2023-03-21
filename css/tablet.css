@@ -15,7 +15,7 @@
     }
 
     .contacts {
-        letter-spacing: 0.04;
+        letter-spacing: 0.04em;
     }
 
     .contacts-list {
@@ -115,7 +115,7 @@
     }
 
     .advantages-list > .advantages-item {
-        width: calc((100%-32px-24px) / 2);
+        /* width: calc((100% - 32px - 24px) / 2); */
         max-width: 356px;
         padding-top: 0;
     }
@@ -157,7 +157,7 @@
     }
 
     .customers-list {
-        gap: 24px;
+        gap: 72px 24px;
     }
 
     .customers-wrap {

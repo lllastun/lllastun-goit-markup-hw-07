@@ -136,7 +136,9 @@
         stroke: black;
     }
 
-    .nav-block.mobile {
+    .icon-list.mobile {
+        justify-content: space-between;
+        margin-right: 20px;
     }
 
     /*.menu-button .icon-close {
@@ -524,6 +526,28 @@
     .modal {
         width: 392px;
         height: 586px;
+    }
+
+    .mobile-contacts-item {
+        /* color: var(--accent-color); */
+        font-size: 20px;
+        line-height: 1.2;
+        font-weight: 500;
+    }
+    .tel {
+        color: var(--accent-color);
+        font-size: 36px;
+        line-height: 1.11;
+        font-weight: 700;
+    }
+    .mobile-contacts-list {
+        margin-top: 284px;
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+    }
+    .mobile-social-media {
+        margin-top: 48px;
     }
 }
 
