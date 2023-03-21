@@ -129,7 +129,7 @@
     .customers-list {
         gap: 24px;
     }
-    }
+
     .customers-wrap {
         width: calc(768px - 216px);
     }
