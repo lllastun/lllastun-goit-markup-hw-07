@@ -54,6 +54,17 @@
         align-items: center;
     }
 
+    .current::after {
+        display: block;
+        position: absolute;
+        content: "";
+        height: 4px;
+        width: 100%;
+        bottom: -1px;
+        background-color: var(--second-accent-color);
+        border-radius: 2px;
+    }
+
     /*                   hero               */
 
     .hero {
